@@ -34,7 +34,7 @@ I have implemented 2 algorithms:
 
 ## Thoughts and improvents
 * Tuning with Twiddle takes more time so it was implemented limited number of iterations. Reset every `epoch_size` iterations. Than need some improvement, probably any way to avoid it.
-* SG implementation depends on initial parameters so with poor choice the car often goes out of the road. So reset function was implemented and require some improvement.
+* SG implementation depends on initial parameters so with poor choice the car often goes out of the road. So reset function was implemented and requires some improvement.
 * Only steering controller was implemented. Next step will speed contoller.
 
 ## Result
